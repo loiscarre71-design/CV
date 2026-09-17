@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 35px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #743A8C;
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: white;
+    margin: 0 0 8px 0;
+    font-size: 32px;
+}
+
+.titre-profil {
+    font-size: 17px;
+    font-weight: bold;
+    color: #f3e8f8;
+    margin: 0 0 15px 0;
+}
+
+.coordonnees {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 14px;
+    color: white;
+}
+
+.coordonnees li strong {
+    color: white;
+}
+
+.coordonnees a {
+    color: white;
+}
+
+h2 {
+    background-color: #743A8C;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 10px 0 3px 0;
+    color: #222222;
+}
+
+.date-lieu {
+    font-style: italic;
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+ul, ol {
+    list-style: none;
+    margin-top: 5px;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.bloc-experience,
+.bloc-formation {
+    margin-bottom: 18px;
+}
+
+.competences-grille {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.competences-colonne {
+    flex: 1;
+    min-width: 220px;
+    background-color: #f8fafc;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+}
+
+.competences-colonne h4 {
+    background-color: #743A8C;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+}
+
+footer {
+    background-color: #743A8C;
+    color: white;
+    margin-top: 30px;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 13px;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
